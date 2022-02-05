@@ -1,0 +1,24 @@
+
+/* .light-swith::after,
+.light-switch::before {
+    background-color: black;
+} */
+.light-switch {
+    background-color: white;
+    color: black;
+}
+.light-swith:hover {
+    background-color: #bdae82;
+    color: white;
+}
+.light-switch::after,
+.light-switch::before {
+    color: black;
+}
+.season.active {
+    background-color: #bdae82;
+    color: white;
+}
+.lang.active-lg {
+    color: #bdae82;
+}
